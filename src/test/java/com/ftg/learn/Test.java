@@ -9,6 +9,7 @@ import java.util.HashMap;
 import java.util.Map;
 
 public class Test {
+
     public static void main(String[] args) {
         FastAutoGenerator.create(" jdbc:postgresql://10.201.212.183:5432/DSSDev?currentSchema=design-system-service", "lll666", "123456")
                 .globalConfig(builder -> {
