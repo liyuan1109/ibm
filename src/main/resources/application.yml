@@ -1,0 +1,11 @@
+server:
+  port: 8089
+spring:
+  datasource:
+    username: postgres
+    password: 123456
+    jdbcUrl: jdbc:postgresql://localhost:5432/design-system-service?currentSchema=design-system-service
+    driver-class-name: org.postgresql.Driver
+mybatis-plus:
+  configuration:
+    log-impl: org.apache.ibatis.logging.stdout.StdOutImpl
